@@ -1,55 +1,127 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
+<!-- saved from url=(0074)https://cardadfar.github.io/stuco_webdev_website/assets/files/nav_bar.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Teddy Liang</title>                           <!-- Give Title -->
+    <title> Teddy Liang </title>                           <!-- Give Title -->
+	<link rel="icon" href="cool-icon.png">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">  <!-- Insert StyleSheet -->
-    <link rel="icon" href="cool-icon.png">                    <!-- Insert Icon -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
+<body data-new-gr-c-s-check-loaded="14.1050.0" data-gr-ext-installed="">
+
 	<style type="text/css">
-		#img {
-			width: 500px;
+		h1 {
 			text-align: center;
+			font-size: 60px;
 		}
 
-		.center {
-			width: 50%;
-			margin-left: 25%;
+
+		body {
+			margin: 0;
+			background-image: url('images/background.jpeg');
+			background-size: 85%;
+			font-family: Palatino;
+			
 		}
 
-		.center_img {
-			text-align: center;
-		}
+		/* NAV BAR */
 
-		.input_class {
+		.nav-bar {
 			width: 100%;
-			font-size: 50px;
-			background: blueviolet;
-			color:turquoise;
-			border-width: 10px;
-			border-color: red;
+			height: 50px;
+			margin: 0;
+			background: coral;
+			text-align: center;
+
+			/* Toggle between static and sticky */
+
+			/*position: sticky;
+			top: 0; */
+		}
+
+		.nav-bar > .element {
+			width: 30%;
+			line-height: 50px;
+			text-align: center;
+			color: white;
+			display: inline-block;
+			margin: 0;
+			font-family: Palatino;
+			text-decoration: none;
+			font-size: 20px;
+
+		}
+
+		.nav-bar > .element:hover { 
+			width: 39.2%;
+			font-weight: bold;
+			background-color:firebrick;
+			border-color: darkred;
+			border-style: solid;
+			border-width: 3px;
+			font-size: 25px;
+
+		}	
+
+
+		/* BODY */
+
+		.content {
+			width: 80%;
+			margin-left: 10%;
 		}
 
 	</style>
 
-	<div class=center>
+    <div class="nav-bar">
+    	<a href="index.html" class="element"> Home </a>
+    	<a href="rat.html" class="element"> Experience </a>
+    	<a href="contact.html" class="element"> Contact </a>
+    </div>
+	
+    <div class="content">
+		<h1>Teddy Liang</h1>
+    	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi, et rhoncus mi neque laoreet purus. Nulla ut eros convallis, rutrum nisi nec, lobortis neque. Pellentesque interdum varius venenatis. Sed id vulputate purus. Donec quis sagittis arcu. Fusce a ultricies enim, nec efficitur erat. Donec dapibus turpis eget est lobortis ornare.</p>
 
-		<div class=center_img>
-			<img id=img src='./images/rat.jpeg'>
-		</div>
-	    <h2> Popcorn is Delicious! </h2>
-	    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-	    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-	    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-	    <p> Why do you like popcorn? </p>
-	    <input class=input_class type="text" name="input_field" placeholder="because it make's me happy...">
-	</div>
+		<p>Mauris cursus eget lectus et aliquet. Ut ornare tellus in massa viverra, at tempor neque accumsan. Nunc ut ornare quam. Suspendisse in tortor diam. Quisque justo dui, tincidunt ut hendrerit eget, efficitur eu erat. Aenean malesuada ligula libero, eget vehicula enim mattis at. Sed turpis arcu, faucibus quis ante sit amet, fringilla pulvinar felis. Nunc tempus lacus non metus efficitur, a ullamcorper nisl bibendum. Nunc vel nisi eget ipsum luctus faucibus id at odio. Sed eleifend ante ligula, non imperdiet orci fermentum sed.</p>
 
-    <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
+		<p>Praesent pretium risus condimentum tincidunt eleifend. Proin hendrerit lacus imperdiet gravida lacinia. Quisque vel interdum ex. Nam iaculis tempor sem, at volutpat libero vulputate ut. Fusce pellentesque dui metus, quis placerat ante efficitur a. Nam ut justo sem. Proin massa lorem, tincidunt ut mattis sit amet, tincidunt viverra massa. Mauris varius quam a imperdiet mollis.</p>
 
-</body>
-</html>
+		<p>Maecenas feugiat tincidunt ullamcorper. Aliquam erat volutpat. Phasellus pharetra faucibus luctus. Aliquam ac justo nec nibh porta consequat id vel felis. Ut mattis tincidunt libero, id posuere purus pulvinar ut. Mauris placerat tortor risus, vel auctor magna tempor non. In dictum tellus quis tellus rutrum egestas at sed ante. Mauris velit purus, tincidunt eget felis quis, varius rhoncus sem. Morbi quis orci ligula. Nam aliquet faucibus commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non lobortis risus, consectetur aliquet odio.</p>
+
+		<p>Phasellus pellentesque, ex ut iaculis tristique, quam elit commodo metus, in efficitur sapien erat ac dui. Curabitur malesuada, nunc et molestie ultricies, lorem lacus tempor odio, sit amet porta elit turpis vel libero. Maecenas sit amet faucibus lectus. Nam a massa in ante aliquam luctus et et augue. Morbi ullamcorper, sapien non consectetur mollis, turpis sem varius justo, sed iaculis mi quam a purus. Aenean in justo sit amet nibh sagittis semper. Praesent blandit tincidunt dui eget suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eleifend mollis purus ac finibus. Nullam imperdiet finibus elit, at gravida arcu rutrum a. Nunc quis iaculis est, ac interdum nibh. In hac habitasse platea dictumst.</p>
+
+    	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi, et rhoncus mi neque laoreet purus. Nulla ut eros convallis, rutrum nisi nec, lobortis neque. Pellentesque interdum varius venenatis. Sed id vulputate purus. Donec quis sagittis arcu. Fusce a ultricies enim, nec efficitur erat. Donec dapibus turpis eget est lobortis ornare.</p>
+
+		<p>Mauris cursus eget lectus et aliquet. Ut ornare tellus in massa viverra, at tempor neque accumsan. Nunc ut ornare quam. Suspendisse in tortor diam. Quisque justo dui, tincidunt ut hendrerit eget, efficitur eu erat. Aenean malesuada ligula libero, eget vehicula enim mattis at. Sed turpis arcu, faucibus quis ante sit amet, fringilla pulvinar felis. Nunc tempus lacus non metus efficitur, a ullamcorper nisl bibendum. Nunc vel nisi eget ipsum luctus faucibus id at odio. Sed eleifend ante ligula, non imperdiet orci fermentum sed.</p>
+
+		<p>Praesent pretium risus condimentum tincidunt eleifend. Proin hendrerit lacus imperdiet gravida lacinia. Quisque vel interdum ex. Nam iaculis tempor sem, at volutpat libero vulputate ut. Fusce pellentesque dui metus, quis placerat ante efficitur a. Nam ut justo sem. Proin massa lorem, tincidunt ut mattis sit amet, tincidunt viverra massa. Mauris varius quam a imperdiet mollis.</p>
+
+		<p>Maecenas feugiat tincidunt ullamcorper. Aliquam erat volutpat. Phasellus pharetra faucibus luctus. Aliquam ac justo nec nibh porta consequat id vel felis. Ut mattis tincidunt libero, id posuere purus pulvinar ut. Mauris placerat tortor risus, vel auctor magna tempor non. In dictum tellus quis tellus rutrum egestas at sed ante. Mauris velit purus, tincidunt eget felis quis, varius rhoncus sem. Morbi quis orci ligula. Nam aliquet faucibus commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non lobortis risus, consectetur aliquet odio.</p>
+
+		<p>Phasellus pellentesque, ex ut iaculis tristique, quam elit commodo metus, in efficitur sapien erat ac dui. Curabitur malesuada, nunc et molestie ultricies, lorem lacus tempor odio, sit amet porta elit turpis vel libero. Maecenas sit amet faucibus lectus. Nam a massa in ante aliquam luctus et et augue. Morbi ullamcorper, sapien non consectetur mollis, turpis sem varius justo, sed iaculis mi quam a purus. Aenean in justo sit amet nibh sagittis semper. Praesent blandit tincidunt dui eget suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eleifend mollis purus ac finibus. Nullam imperdiet finibus elit, at gravida arcu rutrum a. Nunc quis iaculis est, ac interdum nibh. In hac habitasse platea dictumst.</p>
+
+    	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi, et rhoncus mi neque laoreet purus. Nulla ut eros convallis, rutrum nisi nec, lobortis neque. Pellentesque interdum varius venenatis. Sed id vulputate purus. Donec quis sagittis arcu. Fusce a ultricies enim, nec efficitur erat. Donec dapibus turpis eget est lobortis ornare.</p>
+
+		<p>Mauris cursus eget lectus et aliquet. Ut ornare tellus in massa viverra, at tempor neque accumsan. Nunc ut ornare quam. Suspendisse in tortor diam. Quisque justo dui, tincidunt ut hendrerit eget, efficitur eu erat. Aenean malesuada ligula libero, eget vehicula enim mattis at. Sed turpis arcu, faucibus quis ante sit amet, fringilla pulvinar felis. Nunc tempus lacus non metus efficitur, a ullamcorper nisl bibendum. Nunc vel nisi eget ipsum luctus faucibus id at odio. Sed eleifend ante ligula, non imperdiet orci fermentum sed.</p>
+
+		<p>Praesent pretium risus condimentum tincidunt eleifend. Proin hendrerit lacus imperdiet gravida lacinia. Quisque vel interdum ex. Nam iaculis tempor sem, at volutpat libero vulputate ut. Fusce pellentesque dui metus, quis placerat ante efficitur a. Nam ut justo sem. Proin massa lorem, tincidunt ut mattis sit amet, tincidunt viverra massa. Mauris varius quam a imperdiet mollis.</p>
+
+		<p>Maecenas feugiat tincidunt ullamcorper. Aliquam erat volutpat. Phasellus pharetra faucibus luctus. Aliquam ac justo nec nibh porta consequat id vel felis. Ut mattis tincidunt libero, id posuere purus pulvinar ut. Mauris placerat tortor risus, vel auctor magna tempor non. In dictum tellus quis tellus rutrum egestas at sed ante. Mauris velit purus, tincidunt eget felis quis, varius rhoncus sem. Morbi quis orci ligula. Nam aliquet faucibus commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non lobortis risus, consectetur aliquet odio.</p>
+
+		<p>Phasellus pellentesque, ex ut iaculis tristique, quam elit commodo metus, in efficitur sapien erat ac dui. Curabitur malesuada, nunc et molestie ultricies, lorem lacus tempor odio, sit amet porta elit turpis vel libero. Maecenas sit amet faucibus lectus. Nam a massa in ante aliquam luctus et et augue. Morbi ullamcorper, sapien non consectetur mollis, turpis sem varius justo, sed iaculis mi quam a purus. Aenean in justo sit amet nibh sagittis semper. Praesent blandit tincidunt dui eget suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eleifend mollis purus ac finibus. Nullam imperdiet finibus elit, at gravida arcu rutrum a. Nunc quis iaculis est, ac interdum nibh. In hac habitasse platea dictumst.</p>
+
+    	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi, et rhoncus mi neque laoreet purus. Nulla ut eros convallis, rutrum nisi nec, lobortis neque. Pellentesque interdum varius venenatis. Sed id vulputate purus. Donec quis sagittis arcu. Fusce a ultricies enim, nec efficitur erat. Donec dapibus turpis eget est lobortis ornare.</p>
+
+		<p>Mauris cursus eget lectus et aliquet. Ut ornare tellus in massa viverra, at tempor neque accumsan. Nunc ut ornare quam. Suspendisse in tortor diam. Quisque justo dui, tincidunt ut hendrerit eget, efficitur eu erat. Aenean malesuada ligula libero, eget vehicula enim mattis at. Sed turpis arcu, faucibus quis ante sit amet, fringilla pulvinar felis. Nunc tempus lacus non metus efficitur, a ullamcorper nisl bibendum. Nunc vel nisi eget ipsum luctus faucibus id at odio. Sed eleifend ante ligula, non imperdiet orci fermentum sed.</p>
+
+		<p>Praesent pretium risus condimentum tincidunt eleifend. Proin hendrerit lacus imperdiet gravida lacinia. Quisque vel interdum ex. Nam iaculis tempor sem, at volutpat libero vulputate ut. Fusce pellentesque dui metus, quis placerat ante efficitur a. Nam ut justo sem. Proin massa lorem, tincidunt ut mattis sit amet, tincidunt viverra massa. Mauris varius quam a imperdiet mollis.</p>
+
+		<p>Maecenas feugiat tincidunt ullamcorper. Aliquam erat volutpat. Phasellus pharetra faucibus luctus. Aliquam ac justo nec nibh porta consequat id vel felis. Ut mattis tincidunt libero, id posuere purus pulvinar ut. Mauris placerat tortor risus, vel auctor magna tempor non. In dictum tellus quis tellus rutrum egestas at sed ante. Mauris velit purus, tincidunt eget felis quis, varius rhoncus sem. Morbi quis orci ligula. Nam aliquet faucibus commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non lobortis risus, consectetur aliquet odio.</p>
+
+		<p>Phasellus pellentesque, ex ut iaculis tristique, quam elit commodo metus, in efficitur sapien erat ac dui. Curabitur malesuada, nunc et molestie ultricies, lorem lacus tempor odio, sit amet porta elit turpis vel libero. Maecenas sit amet faucibus lectus. Nam a massa in ante aliquam luctus et et augue. Morbi ullamcorper, sapien non consectetur mollis, turpis sem varius justo, sed iaculis mi quam a purus. Aenean in justo sit amet nibh sagittis semper. Praesent blandit tincidunt dui eget suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eleifend mollis purus ac finibus. Nullam imperdiet finibus elit, at gravida arcu rutrum a. Nunc quis iaculis est, ac interdum nibh. In hac habitasse platea dictumst.</p>
+    </div>
+
+
+
+</body></html>
